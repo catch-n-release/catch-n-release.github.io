@@ -51,6 +51,7 @@ body {
 	font-size: 19px;
 	background-color: #FEFEFE;
 	color: #04143A;
+	padding:10px;
 }
 ol, ul {
 	list-style: none;
@@ -91,6 +92,7 @@ div , footer {
 	max-width: 1100px;
 	height: auto;
 	margin: 60px auto;
+	padding-top: 35px;
 }
 
 .hero {
@@ -121,6 +123,14 @@ h1.name {
 	font-size: 24px;
 	font-weight: 300;
 	color: #81899C;
+	margin-top: 10px;
+}
+
+.mail, .linkedin, .github {
+	display: block;
+	/*font-size: 24px;*/
+	/*font-weight: 300;*/
+	/*color: #81899C;*/
 	margin-top: 10px;
 }
 
@@ -176,6 +186,10 @@ h1.name {
 	margin-bottom: 8px;
 }
 
+.list-card .degree {
+	font-size:18px;
+}
+
 .list-card div span {
 	font-size: 16px;
 	color: #81899C;
@@ -194,7 +208,7 @@ h1.name {
 .cards {
 	max-width: 1120px;
 	display: block;
-	margin-top: 780px;
+	margin-top: 730px;
 }
 
 .card {
@@ -206,7 +220,7 @@ h1.name {
 	vertical-align: top;
 	border-radius: 10px;
 	text-align: center;
-	padding-top: 50px
+	padding-top: 25px
 }
 
 .card-active , .card:hover{
@@ -220,7 +234,7 @@ h1.name {
 
 .skill-level {
 	display: inline-block;
-	max-width: 160px;
+	/*max-width: 160px;*/
 }
 
 .skill-level span {
@@ -231,28 +245,29 @@ h1.name {
 }
 
 .skill-level h2 {
-	font-size: 95px;
+	font-size: 25px;
 	font-weight: 300;
 	display: inline-block;
 	vertical-align: top;
 	color: #5B6A9A;
-	letter-spacing: -5px;
+	letter-spacing: -1px;
+	min-width: 280px;
 }
 
 .skill-meta {
 	vertical-align: top;
 	display: inline-block;
-	max-width: 300px;
+	max-width: 350px;
 	text-align: left;
-	margin-top: 15px;
+	/*margin-top: 15px;*/
 	margin-left: 15px;
 }
 
 .skill-meta h3 {
-	font-size: 20px;
+	font-size: 14px;
 	font-weight: 800;
 	color: #5B6A9A;
-	margin-bottom: 5px;
+	margin-top: 10px;
 }
 
 .skill-meta span{
@@ -354,14 +369,14 @@ li .description {
 
 .timeline .date{
 	font-size: 14px;
-	color: #81899C;
+	color: #3c3d40;
 	font-weight: 300;
 }
 
 
 .timeline .desc{
 	font-size: 14px;
-	color: #81899D;
+	color: #3c3d41;
 	font-weight: 300;
 	display:block;
 }
@@ -374,6 +389,10 @@ li .description {
   display: block;
 }
 
+.spacer{
+	margin-top:120px !important;
+}
+
 /*timeline ends*/
 
 
@@ -383,13 +402,18 @@ li .description {
 @media(max-width: 1024px){
 	.container {
 		padding: 15px;
-		margin: 0px auto;
+		/*margin: 0px auto;*/
 	}
 	.cards {
-		margin-top: 250px;
+		margin-top: 750px;
 	}
 }
 
+/*@media (max-width: 850px){
+	.cards {
+	    margin-top: 900px;
+	}
+}*/
 @media(max-width: 768px){
 	.container {
 		padding: 15px;
@@ -404,7 +428,7 @@ li .description {
 		text-align: left;
 	}
 	.card h2 {
-		font-size: 70px;
+		font-size: 20px;
 	}
 		.card , .sections {
 		width: 100%;
