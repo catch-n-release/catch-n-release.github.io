@@ -135,7 +135,7 @@ h1.name {
 }
 
 .lead {
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 300;
 	margin-top: 30px;
 	line-height: 25px;
@@ -153,7 +153,7 @@ h1.name {
 }
 
 .section-title {
-	font-size: 20px;
+	font-size: 35px;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
@@ -179,7 +179,7 @@ h1.name {
 }
 
 .list-card h3 {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 600;
 	color: #5B6A9A;
 	line-height: 26px;
@@ -187,13 +187,18 @@ h1.name {
 }
 
 .list-card .degree {
-	font-size:18px;
+	font-size: 21px;
+}
+
+
+.list-card .college {
+	font-size: 21px;
 }
 
 .list-card div span {
-	font-size: 16px;
+	font-size: 20px;
 	color: #81899C;
-	line-height: 22px;
+	line-height: 24px;
 	display: block;
 }
 .dt {
@@ -208,7 +213,7 @@ h1.name {
 .cards {
 	max-width: 1120px;
 	display: block;
-	margin-top: 730px;
+	margin-top: 830px;
 }
 
 .card {
@@ -257,7 +262,7 @@ h1.name {
 .skill-meta {
 	vertical-align: top;
 	display: inline-block;
-	max-width: 350px;
+	max-width: 450px;
 	text-align: left;
 	/*margin-top: 15px;*/
 	margin-left: 15px;
@@ -273,7 +278,7 @@ h1.name {
 .skill-meta span{
 	color: #81899C;
 	line-height: 20px;
-	font-size: 16px;
+	font-size: 19px;
 }
 
 /* Achievements ends */
@@ -393,6 +398,11 @@ li .description {
 	margin-top:120px !important;
 }
 
+.container .cards {
+	margin-top:150px;
+
+}
+
 /*timeline ends*/
 
 
@@ -405,15 +415,15 @@ li .description {
 		/*margin: 0px auto;*/
 	}
 	.cards {
-		margin-top: 750px;
+		margin-top: 950px;
 	}
 }
 
-/*@media (max-width: 850px){
+@media (max-width: 850px){
 	.cards {
-	    margin-top: 900px;
+	    margin-top: 1150px;
 	}
-}*/
+}
 @media(max-width: 768px){
 	.container {
 		padding: 15px;
