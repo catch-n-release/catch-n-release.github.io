@@ -371,6 +371,10 @@ li .description {
   left: 43%;
 }
 
+.lnks {
+	padding:5px;
+}
+
 
 .timeline .date{
 	font-size: 14px;
