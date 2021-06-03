@@ -213,7 +213,7 @@ h1.name {
 .cards {
 	max-width: 1120px;
 	display: block;
-	margin-top: 830px;
+	margin-top: 900px; /* For Adjusting Cards and preventing overlap */
 }
 
 .card {
