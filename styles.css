@@ -150,6 +150,7 @@ h1.name {
 	display: inline-block;
 	width: 49.7%;
 	height: 50px;
+	margin-top: 10px; /*added this to space education*/
 }
 
 .section-title {
@@ -159,7 +160,8 @@ h1.name {
 }
 
 .list-card {
-	margin: 30px 0;
+	margin: 15px 0; /*changed this to get education area right*/
+	margin-bottom: 5px;
 }
 
 .list-card .exp , .list-card div{
@@ -186,15 +188,17 @@ h1.name {
 	color: #5B6A9A;
 	line-height: 26px;
 	margin-bottom: 8px;
+
 }
 
 .list-card .degree {
-	font-size: 21px;
+	font-size: 18px;
+	width: 500px; /*added this to adjust uni pune degree.*/
 }
 
 
 .list-card .college {
-	font-size: 21px;
+	font-size: 20px;
 }
 
 .list-card div span {
@@ -206,6 +210,7 @@ h1.name {
 .dt {
 	margin-top: -8px; /*temp changes*/
 	font-style: italic;
+
 }
 
 /*skill and intrests ends*/
