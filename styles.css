@@ -236,6 +236,18 @@ h1.name {
 	padding-top: 25px
 }
 
+.video-card {
+	width: 47.9%;
+	height: 350px;
+	background-color: #EEF0F7;
+	display: inline-block;
+	margin: 7px 5px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 25px
+}
+
 .card-active , .card:hover{
 	transform: scale(1.02);
 	transition: 0.5s;
@@ -243,6 +255,14 @@ h1.name {
 	box-shadow: 0px 5px 50px -8px #ddd;
 	cursor: pointer;
 }
+.card-active , .video-card:hover{
+	transform: scale(1.02);
+	transition: 0.5s;
+	background-color: #fff;
+	box-shadow: 0px 5px 50px -8px #ddd;
+	cursor: pointer;
+}
+
 
 
 .skill-level {
@@ -410,8 +430,8 @@ li .description {
 	margin-top:120px !important;
 }
 
-.container .cards {
-	margin-top:150px;
+.container .cards .video-card {
+	margin-top:10px;
 
 }
 
