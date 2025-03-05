@@ -1,17 +1,9 @@
-/* https://newtodesing.com/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* Updated CSS file: styles.css with reduced vertical spacing */
 
-
-
-/*Load google font*/
+/* Load Google Font */
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
-
-
 /* Reset Styles */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,8 +13,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -32,26 +24,24 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-a{
+a {
 	text-decoration: none;
 	text-transform: none;
 	color: #4A90E2;
 }
-
 body {
 	line-height: 1;
-	font-family: lato, ubuntu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
-	text-rendering : optimizeLegibility;
-	-webkit-font-smoothing : antialiased;
+	font-family: Lato, ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 	font-size: 19px;
 	background-color: #FEFEFE;
 	color: #04143A;
-	padding:10px;
+	padding: 10px;
 }
 ol, ul {
 	list-style: none;
@@ -68,44 +58,33 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 p {
 	color: #15171a;
-	font-size: 17;
+	font-size: 17px;
 	line-height: 31px;
 }
-
 strong {
 	font-weight: 600;
 }
-
-div , footer {
+div, footer {
 	box-sizing: border-box;
 }
 
-/* Reset ends */
-
-
-/*Hero section*/
-
+/* Hero section */
 .container {
 	max-width: 1100px;
-	height: auto;
 	margin: 60px auto;
 	padding-top: 35px;
 }
-
 .hero {
-	margin: 50px auto; 
+	margin: 50px auto;
 	position: relative;
 }
-
 h1.name {
 	font-size: 70px;
 	font-weight: 300;
 	display: inline-block;
 }
-
 .job-title {
 	vertical-align: top;
 	background-color: #D9E7F8;
@@ -117,7 +96,6 @@ h1.name {
 	display: inline-block;
 	padding: 15px 25px;
 }
-
 .email {
 	display: block;
 	font-size: 24px;
@@ -125,15 +103,10 @@ h1.name {
 	color: #81899C;
 	margin-top: 10px;
 }
-
 .mail, .linkedin, .github {
 	display: block;
-	/*font-size: 24px;*/
-	/*font-weight: 300;*/
-	/*color: #81899C;*/
 	margin-top: 10px;
 }
-
 .lead {
 	font-size: 22px;
 	font-weight: 300;
@@ -141,66 +114,50 @@ h1.name {
 	line-height: 25px;
 }
 
-/*hero ends*/
-
-/*skills & intrests*/
-
+/* Sections (Experiences, Education, etc.) */
 .sections {
 	vertical-align: top;
 	display: inline-block;
 	width: 49.7%;
-	height: 50px;
-	margin-top: 10px; /*added this to space education*/
+	min-height: 50px;
+	/* Reduced bottom margin for tighter vertical spacing */
+	margin: 10px 0 10px;
 }
-
 .section-title {
 	font-size: 35px;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
-
 .list-card {
-	margin: 15px 0; /*changed this to get education area right*/
-	margin-bottom: 5px;
+	margin: 15px 0 5px 0;
 }
-
-.list-card .exp , .list-card div{
+.list-card .exp, .list-card div {
 	display: inline-block;
 	vertical-align: top;
 }
-
 .list-card .exp {
-
 	margin-right: 15px;
 	color: #4A90E2;
 	font-weight: 600;
 	width: 100px;
 }
-
 .list-card div {
 	width: 70%;
 }
-
 .list-card h3 {
-
 	font-size: 22px;
 	font-weight: 600;
 	color: #5B6A9A;
 	line-height: 26px;
 	margin-bottom: 8px;
-
 }
-
 .list-card .degree {
 	font-size: 18px;
-	width: 500px; /*added this to adjust uni pune degree.*/
+	width: 500px;
 }
-
-
 .list-card .college {
 	font-size: 20px;
 }
-
 .list-card div span {
 	font-size: 20px;
 	color: #81899C;
@@ -208,75 +165,53 @@ h1.name {
 	display: block;
 }
 .dt {
-	margin-top: -8px; /*temp changes*/
+	margin-top: -8px;
 	font-style: italic;
-
 }
 
-/*skill and intrests ends*/
-
-/* Achievements */
-
-
+/* Achievements and Cards */
 .cards {
 	max-width: 1120px;
 	display: block;
-	margin-top: 900px; /* For Adjusting Cards and preventing overlap */
+	margin-top: 50px;
 }
-
 .card {
 	width: 47.9%;
-	height: 200px;
 	background-color: #EEF0F7;
 	display: inline-block;
 	margin: 7px 5px;
 	vertical-align: top;
 	border-radius: 10px;
 	text-align: center;
-	padding-top: 25px
+	padding: 25px 10px;
 }
-
 .video-card {
 	width: 47.9%;
-	height: 350px;
 	background-color: #EEF0F7;
 	display: inline-block;
 	margin: 7px 5px;
 	vertical-align: top;
 	border-radius: 10px;
 	text-align: center;
-	padding-top: 25px
+	padding: 25px 10px;
 }
-
-.card-active , .card:hover{
+.card-active, .card:hover,
+.video-card:hover {
 	transform: scale(1.02);
 	transition: 0.5s;
 	background-color: #fff;
 	box-shadow: 0px 5px 50px -8px #ddd;
 	cursor: pointer;
 }
-.card-active , .video-card:hover{
-	transform: scale(1.02);
-	transition: 0.5s;
-	background-color: #fff;
-	box-shadow: 0px 5px 50px -8px #ddd;
-	cursor: pointer;
-}
-
-
-
 .skill-level {
 	display: inline-block;
-	/*max-width: 160px;*/
 }
-
 .skill-level span {
 	font-size: 35px;
 	font-weight: 300;
 	color: #5B6A9A;
 	vertical-align: top;
 }
-
 .skill-level h2 {
 	font-size: 25px;
 	font-weight: 300;
@@ -286,43 +221,32 @@ h1.name {
 	letter-spacing: -1px;
 	min-width: 280px;
 }
-
 .skill-meta {
 	vertical-align: top;
 	display: inline-block;
 	max-width: 450px;
 	text-align: left;
-	/*margin-top: 15px;*/
 	margin-left: 15px;
 }
-
 .skill-meta h3 {
 	font-size: 14px;
 	font-weight: 800;
 	color: #5B6A9A;
 	margin-top: 10px;
 }
-
-.skill-meta span{
+.skill-meta span {
 	color: #81899C;
 	line-height: 20px;
 	font-size: 19px;
 }
 
-/* Achievements ends */
-
-
-
-/* Timeline styles*/
-
-
+/* Timeline styles (if applicable) */
 ol {
 	position: relative;
 	display: block;
 	margin: 100px 0;
 	height: 2px;
 	background: #EEF0F7;
-
 }
 ol::before,
 ol::after {
@@ -332,7 +256,7 @@ ol::after {
 	display: block;
 	width: 0;
 	height: 0;
-  	border-radius: 10px;
+	border-radius: 10px;
 	border: 0px solid #31708F;
 }
 ol::before {
@@ -341,29 +265,25 @@ ol::before {
 ol::after {
 	right: -10px;
 	border: 0px solid transparent;
-	border-right: 0;
 	border-left: 20px solid #31708F;
-  	border-radius: 3px;
+	border-radius: 3px;
 }
-
-/* ---- Timeline elements ---- */
 li {
 	position: relative;
 	display: inline-block;
 	float: left;
 	width: 25%;
-  	height: 50px;
+	height: 50px;
 }
 li .line {
-  position: absolute;
-  top: -47px;
-  left: 1%;
-  font-size: 20px;
-  font-weight: 600;
-  color: #04143A;
+	position: absolute;
+	top: -47px;
+	left: 1%;
+	font-size: 20px;
+	font-weight: 600;
+	color: #04143A;
 }
 li .point {
-	content: "";
 	top: -7px;
 	left: 0%;
 	display: block;
@@ -372,99 +292,94 @@ li .point {
 	border: 4px solid #fff;
 	border-radius: 10px;
 	background: #4A90E2;
-  position: absolute;
+	position: absolute;
 }
 li .description {
-  display: none;
-  padding: 10px 0;
-  margin-top: 20px;
-  position: relative;
-  font-weight: normal;
-  z-index: 1;
-  max-width: 95%;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 25px;
-  color: #5B6A9A;
+	display: none;
+	padding: 10px 0;
+	margin-top: 20px;
+	position: relative;
+	font-weight: 600;
+	z-index: 1;
+	max-width: 95%;
+	font-size: 18px;
+	line-height: 25px;
+	color: #5B6A9A;
 }
 .description::before {
-  content: '';
-  width: 0; 
-  height: 0; 
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #f4f4f4;
-  position: absolute;
-  top: -5px;
-  left: 43%;
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #f4f4f4;
+	position: absolute;
+	top: -5px;
+	left: 43%;
 }
-
 .lnks {
-	padding:5px;
+	padding: 5px;
 }
-
-
-.timeline .date{
+.timeline .date {
 	font-size: 14px;
 	color: #3c3d40;
 	font-weight: 300;
 }
-
-
-.timeline .desc{
+.timeline .desc {
 	font-size: 14px;
 	color: #3c3d41;
 	font-weight: 300;
-	display:block;
+	display: block;
 }
 
-/* ---- Hover effects ---- */
+/* Hover effects for timeline */
 li:hover {
-  color: #48A4D2;
+	color: #48A4D2;
 }
 li .description {
-  display: block;
+	display: block;
 }
 
-.spacer{
-	margin-top:150px !important;
+/* Spacer for Awards & Skills container */
+/* Reduced margin-top to decrease vertical gap between Education and Awards */
+.spacer {
+	margin-top: 30px !important;
 }
 
+/* Adjust video card margin in cards container */
 .container .cards .video-card {
-	margin-top:10px;
-
+	margin-top: 10px;
 }
 
-/*timeline ends*/
+/* Footer */
+footer {
+	margin-top: 50px;
+	text-align: center;
+	padding: 10px;
+}
 
-
-
-/* Media queries*/
-
-@media(max-width: 1024px){
+/* Media queries */
+@media(max-width: 1024px) {
 	.container {
 		padding: 15px;
-		/*margin: 0px auto;*/
 	}
 	.cards {
-		margin-top: 950px;
+		margin-top: 50px;
 	}
 }
-
-@media (max-width: 850px){
+@media (max-width: 850px) {
 	.cards {
-	    margin-top: 1150px;
+		margin-top: 50px;
 	}
 }
-@media(max-width: 768px){
+@media(max-width: 768px) {
 	.container {
 		padding: 15px;
-		margin: 0px auto;
+		margin: 0 auto;
 	}
 	.cards {
-		margin-top: 320px;
+		margin-top: 50px;
 	}
-
 	.card {
 		padding: 15px;
 		text-align: left;
@@ -472,62 +387,47 @@ li .description {
 	.card h2 {
 		font-size: 20px;
 	}
-		.card , .sections {
+	.card, .sections {
 		width: 100%;
-		height: auto;
 		margin: 10px 0;
-		float: left;
 	}
-
-	.timeline{
+	.timeline {
 		border: none;
-		background-color: rgba(0,0,0,0);
+		background-color: transparent;
 	}
-
-	.timeline li{
+	.timeline li {
 		margin-top: 70px;
-		height: 150px;
+		height: auto;
 	}
 }
-
-
 @media(max-width: 425px) {
 	h1.name {
 		font-size: 40px;
 	}
-
-	.card , .sections {
+	.card, .sections {
 		width: 100%;
-		height: auto;
 		margin: 10px 0;
-		float: left;
 	}
-
-	.timeline{
+	.timeline {
 		display: none;
-		}
-
+	}
 	.job-title {
 		position: absolute;
 		font-size: 15px;
 		top: -40px;
 		right: 20px;
-		padding: 10px
+		padding: 10px;
 	}
-
 	.lead {
 		margin-top: 15px;
 		font-size: 20px;
 		line-height: 28px;
 	}
 	.container {
-		margin: 0px;
+		margin: 0;
 		padding: 0 15px;
 	}
 	footer {
-		margin-top: 2050px;
+		margin-top: 50px;
 	}
-	}
-
-
-/* End of all :P*/
+}
